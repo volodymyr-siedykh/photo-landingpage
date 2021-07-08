@@ -586,7 +586,6 @@ body {
   margin-top: 5.1rem;
   display: flex;
   gap: 2.5rem;
-  flex-wrap: wrap;
   margin: 1rem;
 }
 
@@ -680,6 +679,12 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .work__cards {
+    flex-direction: column;
   }
 }
 
